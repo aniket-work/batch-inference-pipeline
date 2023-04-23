@@ -2,15 +2,31 @@
 
 ### Overview
 
-This pipeline is designed to process a large volume of data using batch inference, a technique that allows for the processing of multiple inputs at once. The pipeline takes in input data, performs batch inference using a trained machine learning model, and outputs the results to a specified location.
+This pipeline though described for a simple example, can be designed to process a large volume of data, this technique is for processing of multiple inputs at once. The pipeline takes in input data, performs batch inference using a trained machine learning model, and outputs the results to a specified location.
 
-### Requirements
+This simple project trains a logistic regression model using the iris dataset, splits the data into training and testing sets, logs the model parameters and metrics to MLflow, and saves the trained model to the MLflow local registry.
 
-To run this pipeline, you will need:
+### Prerequisites
 
-- A trained machine learning model
-- Input data to be processed
-- Computing resources capable of handling the size of the input data and model
+Before we begin, make sure you have the following installed:
+
+ - Python 3.6 or higher
+ - MLflow (pip install mlflow)
+ - Scikit-learn (pip install scikit-learn)
+ - Pandas (pip install pandas)
+
+### Usage
+ - Download dataset
+ ```bash:
+  curl https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data -o iris.data
+```
+ 
+ - Run the script using.
+  ```python
+   python Main.py
+  ```
+   
+    Note - The script will output the MLflow tracking URI to the console.
 
 ### Pipeline Steps
 
