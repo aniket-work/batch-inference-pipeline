@@ -62,3 +62,7 @@ To use this pipeline, follow these steps:
  - Log the model metrics to MLflow using mlflow.log_metric.
  - Save the trained model to the MLflow registry using mlflow.sklearn.log_model.
  - Print the MLflow tracking URI to the console using mlflow.get_tracking_uri()
+
+### Results
+
+![alt text](https://github.com/aniket-work/batch-inference-pipeline/blob/main/flow_run_model_deploy_n_inference.jpg)

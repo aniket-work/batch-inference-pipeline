@@ -36,6 +36,7 @@ with mlflow.start_run():
     y_pred = model.predict(X_test)
     accuracy = (y_pred == y_test).mean()
     mlflow.log_metric("accuracy", accuracy)
+    mlflow.set_tag("mlflow.runName", "Test")
 
     # Log the model itself
     mlflow.sklearn.log_model(model, "model")
