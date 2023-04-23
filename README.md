@@ -6,7 +6,8 @@ This pipeline though described for a simple example, can be designed to process 
 
 This simple project trains a logistic regression model using the iris dataset, splits the data into training and testing sets, logs the model parameters and metrics to MLflow, and saves the trained model to the MLflow local registry.
 
-![alt text](flow_arch.png)
+
+![alt text](https://github.com/aniket-work/batch-inference-pipeline/blob/master/flow_arch.png?raw=true)
 
 ### Prerequisites
 
