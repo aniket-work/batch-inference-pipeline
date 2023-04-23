@@ -14,6 +14,7 @@ This simple project trains a logistic regression model using the iris dataset, s
 Before we begin, make sure you have the following installed:
 
  - Python 3.6 or higher
+ - Know how of mlflow
  - MLflow (pip install mlflow)
  - Scikit-learn (pip install scikit-learn)
  - Pandas (pip install pandas)
@@ -27,6 +28,8 @@ Before we begin, make sure you have the following installed:
  - Run the script using.
   ```python
    python Main.py
+   mlflow ui
+   python batch-inference-pipeline.py
   ```
    
     Note - 
