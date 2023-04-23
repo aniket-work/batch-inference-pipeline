@@ -66,3 +66,5 @@ To use this pipeline, follow these steps:
 ### Results
 
 ![alt text](https://github.com/aniket-work/batch-inference-pipeline/blob/main/flow_run_model_deploy_n_inference.jpg)
+
+![alt text](https://github.com/aniket-work/batch-inference-pipeline/blob/main/metric_stats.jpg)
